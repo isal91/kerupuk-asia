@@ -71,7 +71,7 @@ metadata:
   namespace: production
   annotations:
     kubernetes.io/ingress.global-static-ip-name: kerupuk-asia-ip
-    kubernetes.io/ingress.allow-http: "false"
+    kubernetes.io/ingress.allow-http: "true"
     networking.gke.io/managed-certificates: wooless
 spec:
   rules:
