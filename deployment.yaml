@@ -75,7 +75,7 @@ metadata:
     networking.gke.io/managed-certificates: wooless
 spec:
   rules:
-    - host: app.kerupuk.asia.
+    - host: app.kerupuk.asia
       http:
         paths:
         - path: /*
